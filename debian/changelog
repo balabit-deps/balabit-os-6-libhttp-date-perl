@@ -1,0 +1,23 @@
+libhttp-date-perl (6.02-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Alessandro Ghedini ]
+  * New upstream release 6.01
+  * Bump debhelper compat level to 8
+
+  [ gregor herrmann ]
+  * New upstream release 6.02.
+  * debian/copyright: update to Copyright-Format 1.0.
+  * Bump Standards-Version to 3.9.3 (no changes).
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 13 Apr 2012 16:50:24 +0200
+
+libhttp-date-perl (6.00-1) unstable; urgency=low
+
+  * Initial Release (Closes: #617601).
+
+ -- Nicholas Bamber <nicholas@periapt.co.uk>  Wed, 09 Mar 2011 21:22:14 +0000

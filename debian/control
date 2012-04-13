@@ -1,0 +1,21 @@
+Source: libhttp-date-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl, libtimedate-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Nicholas Bamber <nicholas@periapt.co.uk>
+Standards-Version: 3.9.3
+Homepage: http://search.cpan.org/dist/HTTP-Date/
+Vcs-Git: git://git.debian.org/pkg-perl/packages/libhttp-date-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libhttp-date-perl.git
+
+Package: libhttp-date-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, libtimedate-perl
+Replaces: libwww-perl (<< 6.00)
+Breaks: libwww-perl (<< 6.00)
+Description: module of date conversion routines
+ HTTP::Date provides functions that deal the date formats used by the HTTP
+ protocol (and then some more). Only the first two functions, time2str() and
+ str2time(), are exported by default.
